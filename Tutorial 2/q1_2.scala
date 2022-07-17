@@ -1,5 +1,5 @@
 object Question2 {
-    def main(args: Array[String]) {
+    def main(args: Array[String]): Unit = {
         var i, j, k :Int = 2; 
         var m, n :Int = 5;
         var f :Float = 12.0f;

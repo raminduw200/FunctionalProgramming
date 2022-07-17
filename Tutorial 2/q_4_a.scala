@@ -8,7 +8,7 @@ object Question4 {
 
         return (workingHours*salary + ot*otWorkHours)*(1-weeklyTax);
     }
-    def main(args: Array[String]) {
+    def main(args: Array[String]): Unit = {
         print("Enter the working hours: ");
         var workingHours = scala.io.StdIn.readInt();
         // prompt error if working hours is greater than 40

@@ -9,7 +9,7 @@ attendee costs = 3 Rupees.
 object Question4 {
     val performanceCost = 500;
     val attendeeCost = 3;
-    def main(args: Array[String]) {
+    def main(args: Array[String]): Unit = {
         println("The best ticket price is " + bestTicketPrice(10, 140, 0));
     }
     def bestTicketPrice(
