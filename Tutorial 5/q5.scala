@@ -1,4 +1,3 @@
-// import isEven from q4
 object Question5 {
     def evenSum(n: Int, sum: Int=0): Int = {
         if (n == 0) return sum

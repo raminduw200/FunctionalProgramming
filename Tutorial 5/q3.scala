@@ -1,7 +1,7 @@
 object Question3{
     def sum(n: Int, total: Int=0): Int = {
         n match {
-            case 1 => return total;
+            case 0 => return total;
             case _ => sum(n-1, total+n);
         }
     }
